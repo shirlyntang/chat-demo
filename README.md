@@ -26,7 +26,7 @@ If you have trouble activating the virtual environment on Windows, try `venv\Scr
 # Run the server
 source venv/bin/activate
 cd backend
-uvicorn app.main:app --reload --port 8000
+uvicorn main:app --reload --port 8000
 
 # Run the simulator
 source venv/bin/activate
