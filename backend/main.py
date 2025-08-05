@@ -4,6 +4,8 @@ from pydantic import BaseModel
 import openai
 import os
 
+# TODO: This file is incomplete. Please implement and build on functionality here.
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 app = FastAPI()

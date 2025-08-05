@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 
+// TODO: This file is incomplete. Please implement and build on functionality here.
+
 export default function Home() {
   const [message, setMessage] = useState('');
   const [response, setResponse] = useState('');
